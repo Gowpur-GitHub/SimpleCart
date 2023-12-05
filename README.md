@@ -1,6 +1,4 @@
-# Akhsyanal Gowpur_
-# 201011400526_
-# 07TPLE007
+**AkhsyanalGowpur-201011400526-07TPLE007**
 <br>
 <br>
 
