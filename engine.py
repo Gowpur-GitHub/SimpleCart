@@ -13,14 +13,8 @@ PORT = os.getenv("DB_PORT")
 NAME = os.getenv("DB_NAME")
 
 try:
-    # Tidak ada variabel `e` di sini
     base_engine = create_engine(f'postgresql+psycopg2://{USER}:{PASSWORD}@{HOST}:{PORT}/{NAME}')
 except Exception as e:
-    # Menggunakan variabel `e` untuk penanganan error di masa depan
-    pass
-
-# Meskipun variabel `e` tidak digunakan, namun ada di luar blok try...except
-# sehingga tidak menyebabkan linting error
-base_engine = create_engine("sqlite://", echo=True)
-Base.metadata.drop_all(base_engine)
-Base.metadata.create_all(base_engine)
+    base_engine = create_engine("sqlite://", echo=True)
+    Base.metadata.drop_all(base_engine)
+    Base.metadata.create_all(base_engine)
