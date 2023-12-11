@@ -34,20 +34,20 @@ def test_post_cart(client):
 
     response = client.post("/api/cart", json=data)
     assert response.status_code == 200
-    # Tambahkan asserstions sesuai dengan respons yang diharapkan
+   
     
 def test_get_cart(client):
     # Test GET /api/cart
     response = client.get("/api/cart")
     assert response.status_code == 200
-    # Tambahkan asserstions sesuai dengan respons yang diharapkan
+    
 
 def test_get_cart_detail(client):
     # Test GET /api/cart/{id}
     cart_id = 1
     response = client.get(f"/api/cart/{cart_id}")
     assert response.status_code == 200
-    # Tambahkan asserstions sesuai dengan respons yang diharapkan
+    
 
 def test_put_cart(client):
     # Test PUT /api/cart/{id}
@@ -64,12 +64,12 @@ def test_put_cart(client):
 
     response = client.put(f"/api/cart/{cart_id}", json=data)
     assert response.status_code == 200
-    # Tambahkan asserstions sesuai dengan respons yang diharapkan
+   
 
 def test_delete_cart(client):
     # Test DELETE /api/cart/{id}
     cart_id = 1
     response = client.delete(f"/api/cart/{cart_id}")
     assert response.status_code == 200
-    # Tambahkan asserstions sesuai dengan respons yang diharapkan
+   
 
