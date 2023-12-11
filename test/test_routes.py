@@ -71,5 +71,5 @@ def test_delete_cart(client):
     cart_id = 1
     response = client.delete(f"/api/cart/{cart_id}")
     assert response.status_code == 200
-   
+
 
