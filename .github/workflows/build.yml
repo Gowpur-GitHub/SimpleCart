@@ -27,7 +27,8 @@ jobs:
       - name: Install requirements
         run: pip install -r requirements.txt
         
-      
+      - name: Run ruff
+        run: ruff .
       - name: Run pytest
         run: pytest
       - name: Run pytest with coverage
