@@ -1,6 +1,8 @@
-**AkhsyanalGowpur-201011400526-07TPLE007**
-<br>
-<br>
+**AkhsyanalGowpur-201011400526-07TPLE007** <br><br>
+
+![image](https://github.com/Gowpur-GitHub/SimpleCart/assets/133848555/0f96c87f-09a8-4135-aaaa-3059b19d7387)<br><Br>
+![image](https://github.com/Gowpur-GitHub/SimpleCart/assets/133848555/d62e22a4-5f70-473b-a0ed-a49dacbb778d)<Br><Br>
+
 
 # SimpleCart
 implement simple cart and promotion
